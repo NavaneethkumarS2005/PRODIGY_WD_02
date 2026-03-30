@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stopwatch-container">
+        <div class="stopwatch">
+            <h1 id="display">00:00:00</h1>
+            <div class="controls">
+                <button id="startBtn" class="btn btn-primary">Start</button>
+                <button id="pauseBtn" class="btn btn-secondary">Pause</button>
+                <button id="lapBtn" class="btn btn-info">Lap</button>
+                <button id="resetBtn" class="btn btn-danger">Reset</button>
+            </div>
+            <div class="laps-container">
+                <ul id="lapsList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
